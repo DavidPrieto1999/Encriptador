@@ -1,0 +1,191 @@
+main{
+	display: flex;
+}
+.ruta{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+
+}
+body{
+    padding: 0px 0; 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #F3F5FC;
+	margin: 0px
+}
+#logo {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: absolute;
+	width: 120px;
+	height: 48px;
+	left: 5%;
+	top: 7%;
+    
+}
+
+
+.input-texto{
+	position: absolute;
+	width: 50%;
+	height: 60%;
+	left: 12%;
+	top: 20%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	background: #F3F5FC;
+	border:none;
+	/* identical to box height, or 48px */
+
+
+	/* Dark blue/dark-blue-300 */
+
+	color: #0A3871;
+
+}
+.botones{
+	position: absolute;
+	left: 12%;
+	top: 83%;
+	padding: 70px 20px 0px 0px;
+	width: 55%
+
+}
+.Condicion{
+
+
+	font-size: 15px;
+
+	position: absolute;
+	width: 300px;
+	height: 18px;
+	left: 12%;
+	top: 86%;
+}
+.Boton1{
+	position: absolute;
+	left: 15%;
+	top: 80%;
+    padding: 70px 20px;
+    box-sizing: border-box;
+    border-color: black;
+
+}
+.encriptar{
+	font-size: 15px;
+	color: white;
+	width: 45%;
+	height: 70px;
+	background: blue;
+	border-radius: 25px;
+	border-width: 2px;
+	margin-right: 20px
+
+
+}
+.Boton2{
+	position: absolute;
+	width: 340px;
+	height: 67px;
+	left: calc(15% + (340px));
+	top: 80%;
+	margin-left: 10px;
+
+    padding: 70px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+
+
+}
+
+.desencriptar{
+	font-size: 15px;
+	color:blue;
+	width: 45%;
+	height: 70px;
+	background: #cccccc;
+	border-radius: 25px;
+
+}
+
+
+.mensaje{
+
+	position: absolute;
+	width: 20%;
+	height: 90%;
+	left: 70%;
+	top: 2%;
+	
+	padding: 30px 30px ;
+
+	/* White */
+	background-image:url("Logos/Imagen.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:300px; 
+	font-size: 25px;
+	padding-font:10px
+
+	/*background: #FFFFFF;
+	/* shadow */
+
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+
+}
+
+}
+.items{
+	position: absolute;
+	width: 400px;
+	height: 280px;
+	left: 1000px;
+	top: 30%;
+	text-align: center;
+	padding: 265px 10px ;
+
+}
+.item{
+	font-size: 35px;
+	color: black;
+	font-weight: bold
+	margin-top:15px;
+	filter: opacity(80%);
+
+}
+
+.item2{
+	font-size: 20px;
+	color: black;
+	margin-top: 15px
+	filter: opacity(50%);
+
+}
+.texto{
+	top: 20px;
+	left: 30px,
+
+}
+.copiar{
+
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	left:77%;
+	top: -80%;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 15px
+}
+
+
+
